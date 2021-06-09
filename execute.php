@@ -6,8 +6,6 @@
 		//TokenTelegram
 		$api = '1621051582:AAF4lDWf6aONBRCtIgtVFfozdlLyp1a3HT8';
 
-		
-		
 		//prendo quello che mi è arrivato e lo salvo nella variabile content
 		$content = file_get_contents("php://input");
 		//decodifico quello che mi è arrivato
