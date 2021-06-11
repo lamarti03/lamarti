@@ -58,8 +58,10 @@
     //Salvo all'interno del vettore $foto 3 foto in posizioni differenti
      $foto[0] = "foto.jpg";
      $foto[1] = "foto1.jpg";
+     $foto[2] = "foto2.jpg";
+     $foto[3] = "foto.png";
            //genero un numero random tra 0 e 3 e lo salvo nella variabile $fotojpg
-    $i = rand(0,1);    
+    $i = rand(0,3);    
     sendFoto($chatId, $foto[$i],false,"descrizione foto", $api);
    }
                    if($text=="barze"){
